@@ -11,3 +11,6 @@ def test_add_two_numbers_with_negative_value():
 
 def test_add_two_numbers_with_zero():
     assert add_two_numbers(0, 0) == 0
+
+def test_add_two_numbers_with_zero():
+    assert add_two_numbers(5, 3) == 0
